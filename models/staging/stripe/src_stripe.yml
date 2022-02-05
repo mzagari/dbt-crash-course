@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: dbt-crash-course
+    schema: jaffle
+    tables:
+      - name: payments
